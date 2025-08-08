@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 50px;
+}
+.cart{
+    width: 300px;
+    height: 300px;
+    background: blue;
+    cursor: pointer;
+    transition: 1s;
+}
+.one:hover{
+    background: rebeccapurple;
+    transform: translate(-200px);/*onga yuradi - da chapga*/
+    transform: translateY(-200px);/*pastga tushadi -da tepaga*/
+
+}
+.two:hover{
+    background: blue;
+    transform: rotate(360deg);/*onga aylanadi*/
+    transform: rotateY(180deg);/*turganjoyida aylanadi*/
+}
+.three:hover{
+    background: green;
+    transform: scale(1.1) ;/*ekan boylab kattalashadi*/
+    transform: scaleX(2.1);/*yonga attalashadi*/
+    
+    
+     }
+     .four:hover{
+        transform: skew(360deg);
+     }
